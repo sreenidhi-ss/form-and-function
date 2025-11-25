@@ -1,0 +1,274 @@
+body {
+    background-color: #F4EDE3;
+    margin: 5%;
+}
+
+.heading {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    position: absolute;
+    top: 0;
+    text-align: margin-left;
+
+}
+
+
+.text {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    text-align: margin-left;
+    position: absolute;
+    align-items: center;
+    top: 28vh;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.052vw;
+}
+
+h1 span{
+  display: inline-block;
+  cursor: pointer;
+}
+
+h1 span:hover{
+    animation: text;
+    animation-duration: 1s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+    animation-fill-mode: forwards;
+}
+
+img {
+    width: 25%;
+    animation: shapes;
+    animation-duration: 5s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes shapes {
+  0% {
+    transform: rotate(50deg);
+    scale: 100%;
+
+  }
+  50% {
+    transform: rotate(-50deg);
+    scale: 300%;
+    
+
+  }
+  100% {
+    transform: rotate(50deg);
+    scale: 100%;
+
+  }
+
+}
+
+@keyframes text {
+  0% {
+    color: rgb(59, 72, 22);
+    scale: 100%;
+
+  }
+  50% {
+    scale: 300%;
+    
+
+  }
+  100% {
+    scale: 100%;
+        color: rgb(59, 72, 22);
+
+
+  }
+
+}
+
+/* green star */
+#shape5 {
+    position: absolute;
+    top: 80vh;
+    left: 75vw;
+
+
+
+}
+
+/* blue semicircle */
+#shape6 {
+    position: absolute;
+    top: 55vh;
+    left: 12vw;
+
+
+}
+
+/*orange fork shape*/
+#shape7 {
+    position: absolute;
+    top: 82vh;
+    left: 32vw;
+
+
+}
+
+/*orange stairs shape*/
+#shape10 {
+    position: absolute;
+    top: 50vh;
+    left: 85vw;
+
+
+}
+
+/*green bridge block*/
+#shape11 {
+    position: absolute;
+    top: 48vh;
+    left: 38vw;
+
+
+}
+
+/*blue flower shape*/
+#shape12 {
+    position: absolute;
+    top: 56vh;
+    left: 58vw;
+
+
+}
+
+
+
+
+
+@media(max-width: 768px) {
+
+
+   body {
+    background-color: #F4EDE3;
+    margin: 5%;
+}
+
+.heading {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    line-height: 10vh;
+    text-align: left;
+
+}
+
+
+.text {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    top: 28vh;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: -0.052vw;
+
+
+
+
+
+}
+
+img {
+    width: 35%;
+    text-align: center;
+}
+
+
+  .shapes div{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+
+
+/* green star */
+#shape5 {
+    position: absolute;
+    top: 87vh;
+    left: 30vw;
+
+
+
+}
+
+/* blue semicircle */
+#shape6 {
+    position: absolute;
+    top: 70vh;
+    left: 60vw;
+
+
+}
+
+/*orange fork shape*/
+#shape7 {
+    position: absolute;
+    top: 80vh;
+    left: 2vw;
+
+
+}
+
+/*orange stairs shape*/
+#shape10 {
+    position: absolute;
+    top: 45vh;
+    left: 48vw;
+
+
+}
+
+/*green bridge block*/
+#shape11 {
+    position: absolute;
+    top: 60vh;
+    left: 19vw;
+
+
+}
+
+/*blue flower shape*/
+#shape12 {
+    position: absolute;
+    top: 45vh;
+    left: 2vw;
+
+
+}
+
+@keyframes shapes {
+  0% {
+    transform: rotate(50deg);
+    scale: 100%;
+
+  }
+  50% {
+    transform: rotate(-50deg);
+    scale: 130%;
+    
+
+  }
+  100% {
+    transform: rotate(50deg);
+    scale: 100%;
+
+  }
+
+}
+}
+
