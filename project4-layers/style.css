@@ -1,0 +1,236 @@
+.layers {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1728px;
+  min-height: 1117px;
+  position: relative;
+}
+.layers .top {
+  top: 195px;
+  left: 473px;
+  display: flex;
+  width: 851px;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  overflow: hidden;
+  overflow-x: scroll;
+  z-index: 0;
+}
+
+.layers .middle {
+  top: 478px;
+  left: calc(50.00% - 390px);
+  display: flex;
+  width: 850px;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  overflow: hidden;
+  overflow-x: scroll;
+  z-index: 0
+
+}
+
+.layers .bottom {
+  top: 760px;
+  left: 475px;
+  display: flex;
+  width: 851px;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  overflow: hidden;
+  overflow-x: scroll;
+  z-index: 0;
+}
+
+
+.layers .element {
+  position: relative;
+  width: 850.83px;
+  height: 285.82px;
+  aspect-ratio: 3;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+
+
+.layers .rectangle-1 {
+  position: absolute;
+  top: 43px;
+  left: 361px;
+  width: 1080px;
+  height: 207px;
+  background-color: #b5a2c5;
+  border-radius: 71px;
+  z-index: 1;
+}
+
+.layers .rectangle-2 {
+  position: absolute;
+  top: 281px;
+  left: 1290px;
+  width: 345px;
+  height: 281px;
+  background-color: #ed6023;
+  transform: rotate(15.00deg);
+  z-index: 1;
+}
+
+.layers .star-1 {
+  position: absolute;
+  top: 195px;
+  left: 69px;
+  width: 428px;
+  height: 405px;
+  z-index: 1;
+}
+
+.layers .star-2 {
+  position: absolute;
+  top: 637px;
+  left: 1211px;
+  width: 379px;
+  height: 374px;
+  z-index: 1;
+}
+
+.layers .ellipse {
+  position: absolute;
+  top: 706px;
+  left: 82px;
+  width: 400px;
+  height: 227px;
+  background-color: #c4b0d5;
+  border-radius: 199.85px / 113.42px;
+  transform: rotate(-12.22deg);
+  z-index: 1;
+}
+
+.layers #heading {
+  position: absolute;
+  top: 72px;
+  left: 436px;
+  width: 916px;
+  font-family: "Barriecito", Helvetica;
+  font-weight: 400;
+  color: #fff8ed;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.layers .text1 {
+  position: absolute;
+  top: 300px;
+  left: 1320px;
+  width: 287px;
+  transform: rotate(15.00deg);
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+  z-index: 1;
+}
+
+.layers .text2 {
+  position: absolute;
+  top: 752px;
+  left: 156px;
+  width: 253px;
+  transform: rotate(-12.90deg);
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+      z-index: 3;
+
+}
+
+.layers .vector-1 {
+  position: absolute;
+  top: 640px;
+  left: 1314px;
+  width: 292px;
+  height: 417px;
+    z-index: 2;
+
+}
+
+.layers .vector-2 {
+  position: absolute;
+  top: 248px;
+  left: 146px;
+  width: 307px;
+  height: 280px;
+    z-index: 2;
+
+}
+
+.layers .vector-3 {
+  position: absolute;
+  top: 127px;
+  left: 1384px;
+  width: 292px;
+  height: 209px;
+      z-index: 2;
+
+}
+
+.layers .vector-4 {
+  position: absolute;
+  top: 873px;
+  left: 112px;
+  width: 331px;
+  height: 136px;
+  z-index: 2;
+
+}
+
+.layers .vector-5 {
+  position: absolute;
+  top: 849px;
+  left: 409px;
+  width: 74px;
+  height: 76px;
+      z-index: 2;
+
+}
+
+.layers .vector-6 {
+  position: absolute;
+  top: 555px;
+  left: 1556px;
+  width: 74px;
+  height: 76px;
+      z-index: 2;
+
+}
+
+/*.layers .group {
+  position: absolute;
+  top: 578px;
+  left: 502px;
+  width: 80px;
+  height: 84px;
+  display: flex;
+  background-color: #c1aed2;
+  border-radius: 40px / 42px;
+}
+
+.layers .arrow {
+  margin-top: 12.5px;
+  width: 64px;
+  height: 58.91px;
+}
