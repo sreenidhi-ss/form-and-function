@@ -1,0 +1,167 @@
+body {
+    background-color: #1f1d03fc;
+
+
+}
+#image-container {
+    position: relative;
+    margin-top: -30px;
+}
+
+.chair1 {
+    top: 455px;
+    left: 175px;
+    width: 329px;
+    height: 435px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 25px;
+    display: flex;
+
+}
+
+.chair1:hover {
+    transform: rotate(-12deg);
+    z-index: 1;
+}
+
+
+.chair2 {
+    top: 455px;
+    left: 875px;
+    width: 329px;
+    height: 435px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 25px;
+    display: flex;
+}
+
+.chair2:hover {
+    transform: rotate(-12deg);
+    z-index: 1;
+
+}
+
+
+
+.chair3 {
+    top: 683px;
+    left: 1225px;
+    width: 329px;
+    height: 207px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 25px;
+    display: flex;
+}
+
+.chair3:hover {
+
+    z-index: 1;
+    width: 329px;
+    height: 435px;
+    top: 455px;
+
+}
+
+
+
+.chair4 {
+    top: 455px;
+    left: 1225px;
+    width: 329px;
+    height: 207px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 25px;
+    display: flex;
+}
+
+.chair4:hover {
+
+    z-index: 1;
+    width: 329px;
+    height: 435px;
+}
+
+
+
+.chair5 {
+    top: 455px;
+    left: 524px;
+    width: 330px;
+    height: 207px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 25px;
+    display: flex;
+}
+
+.chair5:hover {
+
+    z-index: 1;
+    width: 505px;
+    height: 435px;
+
+
+}
+
+
+
+.chair6 {
+    top: 683px;
+    left: 524px;
+    width: 155px;
+    height: 207px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 25px;
+    display: flex;
+}
+
+.chair6:hover {
+    top: 455px;
+    left: 524px;
+    z-index: 1;
+    width: 330px;
+    height: 441px;
+    transform: rotate(-15deg);
+}
+
+
+.chair7 {
+    top: 683px;
+    left: 699px;
+    width: 155px;
+    height: 207px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 25px;
+    display: flex;
+}
+
+.chair7:hover {
+
+    z-index: 1;
+    width: 329px;
+    height: 435px;
+    top: 455px;
+}
+
+
+.heading {
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1159px;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #fff4e3;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+}
