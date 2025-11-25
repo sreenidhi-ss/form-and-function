@@ -1,0 +1,77 @@
+:root{
+    --font: "Roboto Mono", sans-serif;
+    --font-condensed: "Roboto Condensed", sans-serif;
+    --font-size-regular: 20px;
+    --font-size-large: 40px;
+    --bg-color: rgb(18, 18, 18);
+    --fg-color: rgb(208, 205, 205);
+    --small-space: 15px;
+    --medium-space: 25px;
+    --large-space: 100px;
+}
+body {
+    background-color: #8B4512;
+}
+
+h1 {
+    font-family: "Space Mono", monospace;
+    color: #E4DCC8;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 12%;
+
+    
+    
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #E4DCC8;
+    font-family: "Space Mono", monospace;
+    display: flex;
+    
+   
+    
+
+}
+
+.navi {
+    display:flex;
+    justify-content: space-between;
+ }
+
+
+ 
+
+
+
+
+ @media(max-width: 768px) {
+
+    .navi {
+        display:none;
+        }
+    
+    h1 {
+    font-family: "Space Mono", monospace;
+    color: #E4DCC8;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 11%;
+    }
+
+ }
+
+
