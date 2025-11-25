@@ -1,0 +1,198 @@
+body {
+    font-family: "Space Mono", monospace;
+    background-color: #F4EDE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin: 0;
+    color: #341C11;
+
+}
+
+.content-box {
+    background-color: #F4EDE3;
+    border: #341C11 solid 2px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    color: #341C11;
+
+    margin-bottom: 20px;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+
+
+}
+h2 {
+
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #341C11;
+    font-size: 55px;
+
+}
+
+p {
+    font-family: "Space Mono", monospace;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+
+#question {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: 341C11;
+    font-family:"Space Mono", monospace;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+#question-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.answers {
+    display: flex;
+    margin-bottom: 16px;
+    font-family:"Space Mono", monospace;
+    font-weight: 300;
+    gap: 10px;
+
+}
+#controls{
+    max-width: 80%;
+    margin:0 auto;
+}
+.answers .btn{
+    flex-basis: 25%;
+}
+/* on mobile, change .answers to have flex-wrap: wrap; and .answers .btn to have flex-basis: 50%; */
+.btn {
+    background-color: #F4EDE3;
+    font-family:"Space Mono", monospace;
+    color: #341C11;
+    
+    padding: 110px 20px;
+    border: #341C11 solid 2px;
+   
+   
+
+    cursor: pointer;
+    font-size: 28px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #341C11;
+    color: #F4EDE3;
+}
+
+.btn.correct {
+    background-color: #341C11;
+    color: #F4EDE3;
+    border: none;
+
+}
+
+.btn.wrong {
+    background-color: #8B4512;
+    color: #F4EDE3;
+    border: none;
+
+}
+
+.next-btn, .restart-btn {
+    background-color: #F4EDE3;
+    color: #341C11;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    border: #341C11 solid 2px;
+
+}
+
+.next-btn:hover, .restart-btn:hover {
+    background-color: #341C11;
+    color: #F4EDE3;
+}
+
+.start-btn {
+    background-color: #F4EDE3;
+    color: #341C11;
+    border: #341C11 solid 2px;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+}
+
+.start-btn:hover {
+    background-color: #341C11;
+    color: #F4EDE3;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .answers {
+        flex-wrap: wrap;
+    }
+    .answers .btn {
+        flex-basis: 45%;
+        padding: 80px 10px;
+        font-size: 24px;
+    }
+    #question {
+        font-size: 35px;
+    }
+    p {
+        font-size: 28px;
+       
+    }
+
+
+    #comment{
+        font-size: 28px;
+        margin-left: 15%;
+
+    }
+    h1, h2 {
+        font-size: 40px;
+        
+    }
+    h1{
+        margin-left: 15%;
+
+    }
+    #results{
+        margin-left: 15%;
+
+    }
+    .start-btn{
+        margin-left: 15%;
+
+    }
+    .restart-btn{
+        margin-left: 15%;
+
+    }
+
+}
